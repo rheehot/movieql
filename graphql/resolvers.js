@@ -1,6 +1,7 @@
+import { people } from "./db";
 const resolvers = {
     Query: {
-        name: () => "Peter Lee"
+        people: () => people
     }
 };
 
